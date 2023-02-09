@@ -16,11 +16,7 @@ function App() {
 
     <div className="App" id='checkout-page'>
       <Routes>
-
-
-        <Route path='/' element={<FormAddres />}></Route>
-
-
+        <Route exact path= '/' element={<FormAddres />}></Route>
       </Routes>
     </div>
 
