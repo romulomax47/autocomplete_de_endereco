@@ -15,9 +15,8 @@ function App() {
   return (
 
     <div className="App" id='checkout-page'>
-      <Routes>
-        <Route exact path= '/' element={<FormAddres />}></Route>
-      </Routes>
+
+      <FormAddres />
     </div>
 
 
